@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced</title>
+    <style>
+      h3 {
+      text-align: right;
+      margin-right:10px
+      }
+
+      td { 
+        padding: 10px
+      }
+
+      #button {margin-left:10px}
+
+      .round { border-radius: 5px}
+
+      input [type="submit"] {
+        background-color: blue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+      <h3><a href="images.html">Images</a></h3>
+      <h3><a href="index.html">Index</a></h3>
+    <form action="https://www.google.co.uk/search">
+      <table>
+        <tr>
+          <td>
+            All of these words:
+          </td>
+          <td>
+            <input class="round" type="text" name="as_q" placeholder="Include">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            This exact word or phrase:
+          </td>
+          <td>
+            <input class="round" type="text" name="as_epq" placeholder="Exact">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            None of these words:
+          </td>
+          <td>
+            <input class="round" type="text" name="as_eq" placeholder="Exclude">
+          </td>
+        </tr>
+      </table>
+      <div id="button">
+        <input class="round" type="submit" value="Google Advanced">
+      </div>
+    </form>
+  </body>
+</html>
